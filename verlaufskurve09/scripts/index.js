@@ -1,10 +1,12 @@
-var container = document.getElementById('container');
-var animation = lottie.loadAnimation({
-  container: document.getElementById('container'), // Required
-  wrapper: container,
-  renderer: 'svg', // Required
-  controls: true,
-  loop: true, // Optional
-  autoplay: true, // Optional
-  path: 'verlaufskurve09.json', // Required
-})
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<lottie-player
+    src="verlaufskurve09.json"
+    background="transparent"  
+    speed="1"  
+    style="width: auto; height: auto;"  
+    controls
+    autoplay
+--lottie-player-toolbar-height: 10px;
+	       >
+</lottie-player>
