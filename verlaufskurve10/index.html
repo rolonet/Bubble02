@@ -5,27 +5,41 @@
 	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
 	<title>verlaufskurve10</title>
 	<style>
-		
+		html {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+#container {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
 	</style>
   </head>
-  <body
-	"style= 
-	 margin: 0;
-	 padding: 0;
-	 overflow: hidden; 
-	 ">
+  <body>
       
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player
-    src="verlaufskurve10.json"
-    background="transparent"  
-    speed="1"  
-    style="width: auto; height: auto;"  
-    controls
-    autoplay
---lottie-player-toolbar-height: 10px;
-	       >
+<div id="container">
+      <lottie-player
+    src="verlaufskurve10.json" background="transparent"  speed="1"  style="width: auto; height: auto;"  controls autoplay >
 </lottie-player>
+    </div>
       
   </body>
 </html>
